@@ -8,6 +8,10 @@ public class EstatisticasFinanceiras {
 	
 	// Custo de uma equipe com várias pessoas
 	public static void imprimeCustoProjeto(Equipe equipe) {
-		System.out.println("Custo de " + equipe.getNome() + ": " + + equipe.getCustoMensal());
+		System.out.println("Custo de " + equipe.getNome() + ": " + + equipe.getCustoEquipeMensal());
+	}
+	
+	public static void imprimeCustoProjeto(Membro membro) {
+		System.out.println("Custo de " + membro.getNome() + ": " + + membro.getCustoTotalMensal());
 	}
 }

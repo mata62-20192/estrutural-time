@@ -19,9 +19,9 @@ public class Main {
   	apple.addPessoa(ive);
   	apple.addPessoa(jobs);
   	
-  	Equipe consorcio = new Equipe("Consorcio");
-  	consorcio.addSubequipe(microsoft);
-  	consorcio.addSubequipe(apple);
+  	Membro consorcio = new Membro("Consorcio");
+  	consorcio.addEquipe(microsoft);
+  	consorcio.addEquipe(apple);
   	consorcio.addPessoa(torvalds);
   	
     EstatisticasFinanceiras.imprimeCustoProjeto(gates);
